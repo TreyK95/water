@@ -29,7 +29,7 @@ function highlightCups(idx) {
 }
 
 function updateBigCup() {
-  const fullCups = document.querySelectorAll(".cups-small.full").length;
+  const fullCups = document.querySelectorAll(".cup-small.full").length;
   const totalCups = smallCups.length;
 
   if (fullCups === 0) {
